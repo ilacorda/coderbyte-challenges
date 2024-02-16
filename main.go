@@ -9,4 +9,16 @@ func main() {
 	word := "I love !! dogs"
 	fmt.Println("The longest word", LongestWord(word))
 
+	fmt.Println("Singly Linked List Challenge")
+
+	var singlyLinkedList SinglyLinkedList
+
+	values := []string{"First", "Second", "Third"}
+	for _, value := range values {
+		singlyLinkedList.Append(value)
+	}
+
+	fmt.Println("The head of the linked list is:", singlyLinkedList.Head.Value)
+	fmt.Println("the tail of the  linked list is ", singlyLinkedList.Tail.Value)
+
 }
