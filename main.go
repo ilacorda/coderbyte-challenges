@@ -21,4 +21,12 @@ func main() {
 	fmt.Println("The head of the linked list is:", singlyLinkedList.Head.Value)
 	fmt.Println("the tail of the  linked list is ", singlyLinkedList.Tail.Value)
 
+	//Codeland Username Validation
+	fmt.Println("Codeland Username Validation")
+	username := "u__hello_world123"
+	fmt.Println("The username is valid:", CodelandUsernameValidation(username))
+
+	invalidUsername := "2hello_world123_"
+	fmt.Println("The username is valid:", CodelandUsernameValidation(invalidUsername))
+
 }
