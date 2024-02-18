@@ -29,4 +29,9 @@ func main() {
 	invalidUsername := "2hello_world123_"
 	fmt.Println("The username is valid:", CodelandUsernameValidation(invalidUsername))
 
+	// reverse string
+	fmt.Println("Reverse String")
+	str := "hello"
+	fmt.Println("The reversed string is:", FirstReverse(str))
+
 }
