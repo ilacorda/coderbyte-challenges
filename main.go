@@ -34,4 +34,9 @@ func main() {
 	str := "hello"
 	fmt.Println("The reversed string is:", FirstReverse(str))
 
+	// fizzbuzz challenge
+	fmt.Println("FizzBuzz Challenge")
+	input := 15
+	fmt.Println(FizzBuzz(input))
+
 }
