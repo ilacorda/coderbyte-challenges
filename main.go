@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	testStr := "hellosannasmith"
@@ -38,5 +40,10 @@ func main() {
 	fmt.Println("FizzBuzz Challenge")
 	input := 15
 	fmt.Println(FizzBuzz(input))
+
+	// question marks
+	fmt.Println("Question Marks")
+	value := "14???4"
+	fmt.Println(QuestionsMarks(value))
 
 }
