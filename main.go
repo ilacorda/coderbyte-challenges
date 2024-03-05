@@ -51,4 +51,9 @@ func main() {
 	providedStr := "hello*3"
 	fmt.Println(LetterChanges(providedStr))
 
+	// Simple Adding
+	fmt.Println("Simple Adding")
+	param := 12
+	fmt.Println(SimpleAdding(param))
+
 }
