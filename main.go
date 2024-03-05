@@ -46,4 +46,9 @@ func main() {
 	value := "14???4"
 	fmt.Println(QuestionsMarks(value))
 
+	// Letter changes
+	fmt.Println("Letter Changes")
+	providedStr := "hello*3"
+	fmt.Println(LetterChanges(providedStr))
+
 }
