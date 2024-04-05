@@ -56,4 +56,8 @@ func main() {
 	param := 12
 	fmt.Println(SimpleAdding(param))
 
+	// Number Reverse
+	fmt.Println("Number Reverse")
+	numbers := "1 2 3"
+	fmt.Println(NumberReverse(numbers))
 }
