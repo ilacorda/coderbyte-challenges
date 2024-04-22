@@ -60,4 +60,10 @@ func main() {
 	fmt.Println("Number Reverse")
 	numbers := "1 2 3"
 	fmt.Println(NumberReverse(numbers))
+
+	// SimpleSymbols
+	fmt.Println("Simple Symbol")
+	symbol := "*&bla++" // this will return false
+	fmt.Println(SimpleSymbols(symbol))
+
 }
