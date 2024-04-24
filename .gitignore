@@ -1,3 +1,15 @@
 !/.idea/
 !/coderbyte-challenges.iml
 
+coderbyte-challenges.iml
+.idea/.gitignore
+.idea/compiler.xml
+.idea/intellij-javadocs-4.0.1.xml
+.idea/jpa-buddy.xml
+.idea/material_theme_project_new.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sbt.xml
+.idea/vcs.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
